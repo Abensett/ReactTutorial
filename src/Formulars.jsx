@@ -5,7 +5,7 @@ function Field ({name, value, onChange, children}){
 
 	return <div className="form-check">
 			<label htmlFor={name}>{children}</label>
-			<input type="text" value={value} onChange={onChange} id={name}/>
+			<input type="texte" value={value} onChange={onChange} id={name}/>
 		</div>
 
 }
@@ -115,7 +115,7 @@ export class Home extends React.Component {
 		  <h3> Multiple selectors  :</h3>
 		  <div>
 		  <label htmlFor="name">Name :</label>
-		  <input type="texte" id="name" name="name"  value={this.state.name} onChange={this.handleChangeMultiple} />  <br/>
+		  <input type="text" id="name" name="name"  value={this.state.name} onChange={this.handleChangeMultiple} />  <br/>
 		  </div>
 		  <div>
 		  <label htmlFor="surname">Surname :</label>
@@ -140,9 +140,9 @@ export class Home extends React.Component {
 
 
 		  <h3> Voici des champs non controlés:</h3>
-		  <input type="text"/>
-		  <input type="text" value={undefined}/>
-		  <input type="text" defaultValue="Ceci est un champ non controlé"/>
+		  <input type="texte"/>
+		  <input type="texte" value={undefined}/>
+		  <input type="texte" defaultValue="Ceci est un champ non controlé"/>
 
 
 		  </div>

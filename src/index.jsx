@@ -37,6 +37,11 @@ import {Timer, ManualIncrementer} from "./Timer.jsx";
 
 import {Home} from "./Formulars.jsx";
 
+// ============================================================================//
+// TP create a THERMOMETHER
+// ============================================================================//
+
+import {Thermometer} from "./Thermometer.jsx";
 
 // ============================================================================//
 // Game component : Main component
@@ -56,6 +61,8 @@ class Game extends React.Component {
          <h2>Second : Formulars </h2>
          < Home />
 
+         <h2>Second : Thermometer </h2>
+         < Thermometer />
         </div>
       </div>
     )
